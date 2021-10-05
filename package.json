@@ -1,0 +1,24 @@
+{
+  "name": "smit-kilp",
+  "version": "1.35.0",
+  "description": "KILP application",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c rollup.config.js -w"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@rollup/plugin-replace": "^3.0.0",
+    "rollup": "^2.58.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
